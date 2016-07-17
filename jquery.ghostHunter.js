@@ -97,7 +97,7 @@
 			var index 		= this.index,
 				blogData 	= this.blogData;
 
-	        $.get(ghost.url.api('posts', {limit: "all", include: "tags"})).done(function(data){
+	        $.get(ghost.url.api('posts', {limit: "all", fields: "id,title,meta_description,markdown,created_at,url", include: "tags"})).done(function(data){
 	        	searchData = data.posts;
             	searchData.forEach(function(arrayItem){
             		var tag_arr = arrayItem.tags.map(function(v) {

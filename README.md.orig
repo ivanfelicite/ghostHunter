@@ -4,6 +4,9 @@
 **This tool has just  been updated to work with Ghost's API. To quote the Ghost team, "The API is still under very (very) heavy development and subject to regular breaking changes."**
 
 **If performance is an issue, you should probably remove the "markdown" field from the index and the API query.**
+#Updated
+Searching through tags is now supported. Special thanks to @lizhuoli1126 for the help.
+Added the prettypubdate as coded by @alavers
 
 #Updated
 Searching through tags is now supported. Special thanks to @lizhuoli1126 for the help.
