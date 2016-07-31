@@ -1,5 +1,5 @@
-![Version](https://img.shields.io/badge/Version-0.3.1-blue.svg)
-![MinGhostVersion](https://img.shields.io/badge/Min%20Ghost%20v.-%3E%3D%200.7.9-red.svg)
+![Version](https://img.shields.io/badge/Version-0.3.2-blue.svg)
+![MinGhostVersion](https://img.shields.io/badge/Min%20Ghost%20v.-%3E%3D%200.9.0-red.svg)
 
 **This tool has just  been updated to work with Ghost's API. To quote the Ghost team, "The API is still under very (very) heavy development and subject to regular breaking changes."**
 
@@ -10,14 +10,8 @@ Searching through tags is now supported. Special thanks to @lizhuoli1126 for the
 Added the prettypubdate as coded by @alavers
 
 #Status of this fork
-- Restrict the number of fields being queried from the API.
-	Status @05/14/2016 : the bug has been closed by the Ghost team. Anyone downloading Ghost from Git can use the "filterfields" branch of this fork. All others : wait for the ghost release O.8.0
+The "filterfields" option works as of ghost v. 0.9. Any earlier versions of ghost should use the master.
 
-
-#ToDo
-- Add the possibility to build the index on the server at a set time, and query that index instead of building it every time the page loads
-- Allow switching between building the index live and the aforementioned function.
-- In the distant future, build a GUI to set which fields can be queried, how much to boost their importance, etc.
 
 #GhostHunter
 A Ghost blog search engine
